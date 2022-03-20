@@ -1,0 +1,291 @@
+a {
+    text-decoration: none;
+    color:#CDCDCD;
+}
+
+.he {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    position: absolute;
+    width: 1280px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    height: 60px;
+    width: 184px;
+    /* border: 2px solid green; */
+    margin: 60px 0 0 40px;
+}
+
+.name_name {
+    color: #F1CDB3;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 0.08em;
+}
+
+.opis {
+    color: white;
+
+}
+
+nav {
+    height: 27px;
+    width: 443px;
+    /* border: 2px solid green; */
+    margin: 76px 40px 0 0;
+    
+
+}
+
+nav li {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+    color: #CDCDCD;
+    margin-right: 5px;
+    display: inline;
+    padding: 3px;
+}
+
+.hero {
+    width: 1280px;  
+    height: 908px;
+    background-image: url("./hero_background.png");
+    background: linear-gradient(90deg, rgba(91,72,58,1) 0%, rgba(38,36,37,1) 100%);
+    }
+
+.hero_container {
+    width: 1280px;
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.content {
+    /* border: 2px solid green; */
+    margin: 343px 0 0 40px;
+    height: 321px;
+    width: 460px;
+}
+
+.hero_image {
+    /* border: 2px solid green; */
+    margin: 180px 0 0 42px;
+    height: 728px;
+    width: 698px;
+    background-image: url("./dog.png");
+}
+
+.content_name {
+    height: 114px;
+    width: 310px;
+}
+
+.content_name span {
+    color: white;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 57px;
+    letter-spacing: 0.04em;
+}
+
+.content_opis {
+    margin: 42px 0 41px 0;
+}
+
+.content_opis span {
+    color: #CDCDCD;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.content button {
+    width: 207px;
+    height: 52px;
+    background: #F1CDB3;
+    border-radius: 100px;
+    border: none;
+    padding: 15px 45px;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: 0.09em;
+}
+
+
+
+.about {
+    height: 588px;
+    width: 1280px;
+    display: flex;
+}
+
+.about_image {
+    height: 408px;
+    width: 300px;
+    background-image: url("./about_image.png");
+    margin: 80px 0 0 215px;
+}
+
+.about_content {
+    height: 380px;
+    width: 430px;
+    margin: 94px 0 0 120px;
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
+}
+
+.about_name {
+    /* border: 2px solid red; */
+    height: 90px;
+    width: 370px;
+}
+
+.about_name span {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.about_opis-1 {
+    /* border: 2px solid red; */
+    width: 430px;
+    height: 96px;
+}
+
+.about_opis-2 {
+    /* border: 2px solid red; */
+    width: 430px;
+    height: 144px;
+}
+
+.about_opis-1 p, .about_opis-2 p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4C4C4C;
+}
+
+.pets {
+    background: #F6F6F6;
+    display: flex;
+    flex-wrap: wrap;
+    height: 877px;
+    width: 1280px;
+}
+
+.pets_name {
+    height: 90px;
+    width: 400px;
+    margin: 80px 0 0 440px;
+}
+
+.pets_name h3 {
+    border: 2px solid red;
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.pets_select {
+    width: 1280px;
+    height: 435px;
+    border: 2px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+.pets_left {
+    border: 2px solid red;
+    height: 52px;
+    width: 52px;
+    margin: 192px 0 0 46px;
+
+}
+.pets_select-1 {
+    border: 2px solid red;
+    height: 435px;
+    width: 270px;
+    background-color: white;
+    margin: 0 0 0 46px;
+    display: flex;
+}
+
+.pets_image-1 {
+    background-image: url("./pets1.png");
+    height: 270px;
+    width: 270px;
+}
+
+.pets_name {
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #545454;
+}
+
+.pets_button_learnMore-1 {
+
+}
+
+.pets_select-2 {
+    height: 435px;
+    width: 270px;
+    background-color: white;
+    margin: 0 0 0 90px;
+}
+
+.pets_select-3 {
+    height: 435px;
+    width: 270px;
+    background-color: white;
+    margin: 0 0 0 90px;
+}
+
+.pets_right {
+    border: 2px solid red;
+    height: 52px;
+    width: 52px;
+    margin: 192px 0 0 46px;
+}
+
+
+.pets_button {
+
+}
